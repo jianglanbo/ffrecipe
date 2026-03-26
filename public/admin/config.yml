@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR_USERNAME/ffrecipe  # Replace with your GitHub repo
+  repo: jianglanbo/ffrecipe
   branch: main
 
 media_folder: public/images
