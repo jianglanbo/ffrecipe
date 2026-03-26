@@ -1,0 +1,110 @@
+backend:
+  name: github
+  repo: YOUR_USERNAME/ffrecipe  # Replace with your GitHub repo
+  branch: main
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: "life-insurance"
+    label: "Life Insurance"
+    folder: "content/life-insurance"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "FFRecipe Team" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Last Modified", name: "lastModified", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["life insurance"] }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "health-insurance"
+    label: "Health Insurance"
+    folder: "content/health-insurance"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "FFRecipe Team" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Last Modified", name: "lastModified", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["health insurance"] }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "auto-insurance"
+    label: "Auto Insurance"
+    folder: "content/auto-insurance"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "FFRecipe Team" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Last Modified", name: "lastModified", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["auto insurance"] }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "home-insurance"
+    label: "Home Insurance"
+    folder: "content/home-insurance"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "FFRecipe Team" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Last Modified", name: "lastModified", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["home insurance"] }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "guides"
+    label: "Insurance Guides"
+    folder: "content/guides"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "FFRecipe Team" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Last Modified", name: "lastModified", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["insurance guide"] }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Author", name: "author", widget: "string", default: "FFRecipe Team" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Last Modified", name: "lastModified", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["insurance"] }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
