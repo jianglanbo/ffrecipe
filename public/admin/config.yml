@@ -2,7 +2,7 @@ backend:
   name: github
   repo: jianglanbo/ffrecipe
   branch: main
-  base_url: https://ffrecipe.com
+  base_url: https://www.ffrecipe.com
   auth_endpoint: api/auth
 
 media_folder: public/images
